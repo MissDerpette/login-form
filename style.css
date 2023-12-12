@@ -4,3 +4,14 @@ html {
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 }
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp4993988.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0; 
+    padding: 0; 
+    }
+
