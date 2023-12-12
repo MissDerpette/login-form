@@ -21,7 +21,7 @@ body {
     }
 
 section {
-    width: 40vw;
+    width: 50vw;
     background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 9.5px );
@@ -39,9 +39,66 @@ section {
     }
 
     .pad {
-        padding: 20px 0;
+        padding: 16px 0;
     }
+
+
 input {
     inline-size: 95%;
+    border-radius: 6px;
+    border: 0 none;
+    margin: 8px;
+    height: 6vh;
+    }
 
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+
+  input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  } 
+
+    input[type=password]:focus {
+    border: 3px solid #555;
+  }
+
+
+a {
+    text-decoration: none;
+    color: black;
 }
+
+button {
+    inline-size: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 6px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+button:hover {
+    border: 3px solid #555;
+    border-radius: 6px;
+  }
