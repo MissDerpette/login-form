@@ -17,7 +17,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     }
 
 section {
@@ -39,7 +38,7 @@ section {
     }
 
     .pad {
-        padding: 16px 0;
+        padding: 4px 8px;
     }
 
 
@@ -52,7 +51,7 @@ input {
     }
 
 input[type=text] {
-    padding: 12px 20px;
+    padding: 4px 8px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
@@ -67,7 +66,7 @@ input[type=text] {
 
 
   input[type=password] {
-    padding: 12px 20px;
+    padding: 4px 8px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
@@ -84,6 +83,10 @@ input[type=text] {
 a {
     text-decoration: none;
     color: black;
+}
+.p {
+    text-align: center;
+    font-size: 12pt;
 }
 
 button {
