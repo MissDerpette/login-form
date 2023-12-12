@@ -7,31 +7,28 @@
     <title>Login App</title>
 </head>
 <body>
-    <div class="main-wrapper">
+    <section class="main-wrapper">
 
-        <form autocomplete="off" class="login">
-            <h2>Login</h2>
+        <form autocomplete="off" class="li login-wrapper pad">
+            <h2 class="li">Login</h2>
 
-            <label for="email-add"></label>
-                    <input type="text" placeholder="Email Address" name="emailaddress" id="li-email" required>
+                  <label for="email-add"></label>
+                    <input type="text" id="li-email" name="emailaddress" placeholder="Email Address" required>
     
                     <label for="password"></label>
-                    <input type="password" placeholder="Password" name="password" id="li-password"required>
+                    <input type="password" id="li-password" name="password" placeholder="Password" required>
 
-            <div class="wrapper-for-links">
+            <div class="li wrapper-for-links">
 
-                        <a href="#">Forgot password?</a> 
-                        <a href="#">Don't have an account yet? Sign up!</a>
+                    <p class="li pad p"> <a href="#">Forgot password?</a>
+                    Don't have an account yet? <a href="#">Sign up!</a> </p>
 
             </div>
 
-            <button class="li-btn">Submit</button>
+            <button class="li-btn">Login</button>
 
         </form>
-
-
-
-    </div>
+    </section>
     
 </body>
 </html>
