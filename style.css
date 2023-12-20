@@ -54,7 +54,7 @@ input {
     border-radius: 6px;
     border: 0 none;
     margin: 8px;
-    height: 6vh;
+    height: 4vh;
     }
 
 input[type=text] {
@@ -91,7 +91,7 @@ input[type=text] {
     input[type=password]:hover {
     border: 3px solid #555;
   }
-     input[type=password]:focus {
+    input[type=password]:focus {
     border: 3px solid #555;
   }
 
