@@ -10,4 +10,6 @@
 
   On the left tab, you'll see *All products* which will allow you to see all products offered by Firebase. Look for *Authentication*.
 
+Unde the *Sign-in method* on that page, select *Email and Password* under *Native Providers*. Enable the toggle next to *Email/Password* and hit *Save*. 
+
 
